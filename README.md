@@ -3,5 +3,7 @@ Adaptive-mixture-categorization (AMC)-based g-computation approach combines g-co
 
 You can install the package from Github:
 
+``` r
 # install.packages("devtools")
 devtools::install_github("sitingLi/AMC")
+```
