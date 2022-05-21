@@ -5,5 +5,5 @@ You can install the package from Github:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("sitingLi/AMC")
+devtools::install_github("sitingLi/amc")
 ```
