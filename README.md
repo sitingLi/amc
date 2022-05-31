@@ -147,10 +147,10 @@ confusionMatrix(data = predicted_value_quantile, reference = expected_value)
 - Accuracy: 0.8628
 - Kappa : 0.7978
 - Confusion matrix:
-<img src="man/figure/3_1.PNG" width="25%" />
+<img src="man/figure/3_1.PNG" width="30%" />
 
 **Categorize the variable into quartiles:**
 - Accuracy: 0.647
 - Kappa : 0.5293
 - Confusion matrix:
-<img src="man/figure/3_2.PNG" width="25%" />
+<img src="man/figure/3_2.PNG" width="30%" />
