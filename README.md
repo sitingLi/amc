@@ -38,3 +38,11 @@ This function is for categorizing variables into specified number of categories 
 - output: the categorized data
 - cutoff: the thresholds/cutoffs of the categorization for each variable
 
+
+## Steps of AMC
+Assume k is the number of categories:
+
+<img src="man/figure/ Steps_of_AMC.PNG" width="100%" />
+
+
+
