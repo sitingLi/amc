@@ -42,7 +42,24 @@ This function is for categorizing variables into specified number of categories 
 ## Steps of AMC
 Assume k is the number of categories:
 
-<img src="man/figure/ Steps_of_AMC.PNG" width="100%" />
+<img src="man/figure/Steps_of_AMC.PNG" width="40%" />
 
 
+## Examples
+### 1. A toy example of categorization
 
+We are going to categorize a variable with 16 values (0.1, 0.1, 0.1, 0.2, 0.2, 0.2, 0.2, 0.4, 0.4, 0.7, 0.8, 0.8, 0.9, 1.1, 1.8, 2.2).
+
+``` r
+library(amc)
+toy_data <- data.frame(c(0.1, 0.1, 0.1, 0.2, 0.2, 0.2, 0.2, 0.4, 0.4, 0.7, 0.8, 0.8, 0.9, 1.1, 1.8, 2.2))
+result = amc(toy_data)
+output <- result[["output"]]
+cutoff <- result[["cutoff"]]
+group <- result[["group"]]
+cat("The function categorizes this variable into", group, "categories.", "The cutoffs are:", cutoff)
+```
+
+The categorization process is as follows:
+
+<img src="man/figure/flowchart.PNG" width="64%" />
