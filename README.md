@@ -88,6 +88,7 @@ result <- amc.fixed.k(input, group = 4)
 output <- cbind(data[[2]][,1], result$output)
 colnames(output)[1] <- "y"
 # use ‘qgcomp’[1] package to estimate mixture effect
+# Reference: Keil, Alexander P., et al. "A quantile-based g-computation approach to addressing the effects of exposure mixtures." Environmental health perspectives 128.4 (2020): 047004.
 library(qgcomp)
 (estimate.model = qgcomp.noboot(y~., data=output, family="gaussian", q = NULL))
 ```
