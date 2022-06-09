@@ -21,7 +21,7 @@ This function is for categorizing variables into the optimal number of categorie
 
 **Output**
 - output: the categorized data
-- group: the number of categories for each variable
+- group: the number of categories for each variable (The maximum is 10 given the computation limitation)
 - cutoff: the thresholds/cutoffs of the categorization for each variable
 
 ``` r
