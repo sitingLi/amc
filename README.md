@@ -31,7 +31,7 @@ This function is for categorizing variables into specified number of categories 
 
 **Input**
 - data: the input data for categorization
-- group: the number of categories, which can be set as an integer from 2 to 10 by the user. (default = 2) We recommend the number is less than 6.
+- group: the number of categories, which can be set as an integer from 2 to 10 by the user. (default = 2) We recommend the number is less than 6 to avoid too many categories in real data.
 - min_num: the minimum sample size of each category, which can be set as a positive integer. (default = 1) We recommend the number is larger than 5 percent of the overall sample size.
 
 **Output**
