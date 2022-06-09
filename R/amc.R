@@ -57,7 +57,7 @@ amc = function (data) {
 
 
     # 3 groups or more
-    for (g in 3:min(6,num_sub))
+    for (g in 3:min(10, num_sub))
     {
       seq = vector(length = 0)
       start = 1
