@@ -114,11 +114,19 @@ end.time3 <- Sys.time()
 
 ```
 
-Result:
+AMC-based g-computation:
 
-<img src="man/figure/2.PNG" width="60%" />
+The estimated overall mixture effect is 0.934361. Execution time: 20.10454 secs.
 
-The estimated overall mixture effect is 0.814.
+Quantile-based g-computation:
+
+The estimated overall mixture effect is 0.817173. Execution time: 0.3535089 secs.
+
+Weighted Quantile Sum (WQS) regression:
+
+The estimated overall mixture effect is 0.8240. Execution time: 2.106898 secs.
+
+
 
 ### 3. Categorization accuracy of a simulated example
 
