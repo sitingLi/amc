@@ -116,7 +116,7 @@ end.time3 <- Sys.time()
 
 AMC-based g-computation:
 
-The estimated overall mixture effect is 0.934361. Execution time: 20.10454 secs.
+The estimated overall mixture effect is 0.934361. Execution time: 20.10454 secs. (Time is measured for a laptop, varies by device)
 
 Quantile-based g-computation:
 
